@@ -115,3 +115,5 @@ Balance is a critical state managed transactionally.
 3.  **Synchronization**:
     - REST APIs handle the persistent database updates.
     - Socket events (`balance-changed`) are used to trigger immediate UI refreshes on the frontend without requiring a page reload.
+
+![diagram](simple_arch_diag.png?raw=true "diagram")

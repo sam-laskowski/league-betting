@@ -30,6 +30,7 @@ const MONGODB_URI =
 main().catch((err) => console.log(err));
 
 async function main() {
+  console.log("connecting with, ", MONGODB_URI)
   await mongoose.connect(MONGODB_URI);
   console.log("Connected to MongoDB");
   httpServer.listen(process.env.PORT || 3000, () => {

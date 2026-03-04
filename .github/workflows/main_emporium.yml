@@ -62,7 +62,8 @@ jobs:
         with:
           app-name: 'emporium'
           slot-name: 'Production'
-          package: .
+          package: /frontend/dist
 
           
+
 
